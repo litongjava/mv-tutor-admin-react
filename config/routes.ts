@@ -137,6 +137,12 @@ export default [
         name: 'mv_generate_scene',
         component: './app/mv_generate_scene/mv_generate_scene_index',
       },
+      {
+        path: 'mv_llm_usage',
+        layout: false,
+        name: 'mv_llm_usage',
+        component: './app/mv_llm_usage/mv_llm_usage_index',
+      },
     ]
   },
   {

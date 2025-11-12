@@ -34,8 +34,22 @@ export const ef_llm_usage_columns = (): ProColumns<any>[] => [
     valueType: 'text',
   },
   {
+    title: 'system_prompt',
+    dataIndex: 'system_prompt',
+    valueType: 'textarea',
+    ellipsis: true,
+    copyable: true,
+  },
+  {
     title: 'messages',
     dataIndex: 'messages',
+    valueType: 'textarea',
+    ellipsis: true,
+    copyable: true,
+  },
+  {
+    title: 'content',
+    dataIndex: 'content',
     valueType: 'textarea',
     ellipsis: true,
     copyable: true,
