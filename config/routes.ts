@@ -143,6 +143,12 @@ export default [
         name: 'mv_llm_usage',
         component: './app/mv_llm_usage/mv_llm_usage_index',
       },
+      {
+        path: 'mv_ai_prompt',
+        layout: false,
+        name: 'mv_ai_prompt',
+        component: './app/mv_ai_prompt/mv_ai_prompt_index',
+      },
     ]
   },
   {

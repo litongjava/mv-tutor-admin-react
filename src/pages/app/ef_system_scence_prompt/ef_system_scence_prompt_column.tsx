@@ -8,7 +8,7 @@ export const ef_system_scence_prompt_columns = (): ProColumns<any>[] => [
   },
   {
     "title": "title",
-    "dataIndex": "title",
+    "dataIndex": "name",
     "valueType": "text"
   },
   {
