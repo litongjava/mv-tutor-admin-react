@@ -149,6 +149,12 @@ export default [
         name: 'mv_scene_whole_statement_code',
         component: './app/mv_scene_whole_statement_code/mv_scene_whole_statement_code_index',
       },
+      {
+        path: 'mv_sse_sent_data',
+        layout: false,
+        name: 'mv_sse_sent_data',
+        component: './app/mv_sse_sent_data/mv_sse_sent_data_index',
+      },
 
 
       {
