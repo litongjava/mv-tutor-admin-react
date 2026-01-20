@@ -138,6 +138,20 @@ export default [
         component: './app/mv_generate_scene/mv_generate_scene_index',
       },
       {
+        path: 'mv_scene_statement_code',
+        layout: false,
+        name: 'mv_scene_statement_code',
+        component: './app/mv_scene_statement_code/mv_scene_statement_code_index',
+      },
+      {
+        path: 'mv_scene_whole_statement_code',
+        layout: false,
+        name: 'mv_scene_whole_statement_code',
+        component: './app/mv_scene_whole_statement_code/mv_scene_whole_statement_code_index',
+      },
+
+
+      {
         path: 'mv_llm_usage',
         layout: false,
         name: 'mv_llm_usage',
