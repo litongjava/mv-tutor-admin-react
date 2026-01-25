@@ -155,6 +155,12 @@ export default [
         name: 'mv_sse_sent_data',
         component: './app/mv_sse_sent_data/mv_sse_sent_data_index',
       },
+      {
+        path: 'mv_stream_first_token_time',
+        layout: false,
+        name: 'mv_stream_first_token_time',
+        component: './app/mv_stream_first_token_time/mv_stream_first_token_time_index',
+      },
 
 
       {
