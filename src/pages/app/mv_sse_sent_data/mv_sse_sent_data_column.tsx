@@ -7,6 +7,11 @@ export const mv_sse_sent_data_column = (): ProColumns<any>[] => [
     "valueType": "text"
   },
   {
+    "title": "scene",
+    "dataIndex": "scene",
+    "valueType": "text"
+  },
+  {
     "title": "type",
     "dataIndex": "type",
     "valueType": "text"
