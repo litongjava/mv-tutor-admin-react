@@ -168,6 +168,13 @@ export default [
         name: 'mv_scene_storyboard',
         component: './app/mv_scene_storyboard/mv_scene_storyboard_index',
       },
+      {
+        path: 'mv_file_ocr_cache',
+        layout: false,
+        name: 'mv_file_ocr_cache',
+        component: './app/mv_file_ocr_cache/mv_file_ocr_cache_index',
+      },
+
 
 
       {
