@@ -1,4 +1,5 @@
 ﻿import {llm_generate_image_columns} from "@/pages/app/llm_generate_image/llm_generate_image_column";
+import {mv_scene_storyboard_column} from "@/pages/app/mv_scene_storyboard/mv_scene_storyboard_column";
 
 /**
  * @name umi 的路由配置
@@ -160,6 +161,12 @@ export default [
         layout: false,
         name: 'mv_stream_first_token_time',
         component: './app/mv_stream_first_token_time/mv_stream_first_token_time_index',
+      },
+      {
+        path: 'mv_scene_storyboard',
+        layout: false,
+        name: 'mv_scene_storyboard',
+        component: './app/mv_scene_storyboard/mv_scene_storyboard_index',
       },
 
 
