@@ -1,5 +1,10 @@
 import { ProColumns } from '@ant-design/pro-components';
 
+const trueFalseEnum = {
+  false: { text: 'false' },
+  true: { text: 'true' },
+};
+
 export const mv_file_parse_cache_column = (): ProColumns<any>[] => [
   {
     title: 'url',
@@ -24,12 +29,15 @@ export const mv_file_parse_cache_column = (): ProColumns<any>[] => [
   {
     title: 'geometric',
     dataIndex: 'geometric',
-    valueType: 'text',
+    valueType: 'select',
+    valueEnum: trueFalseEnum,
   },
   {
     title: 'figure',
     dataIndex: 'figure',
-    valueType: 'text',
+    valueType: 'textarea',
+    ellipsis: true,
+    copyable: true,
   },
   {
     title: 'text',
