@@ -174,6 +174,12 @@ export default [
         name: 'mv_file_ocr_cache',
         component: './app/mv_file_ocr_cache/mv_file_ocr_cache_index',
       },
+      {
+        path: 'mv_file_parse_cache',
+        layout: false,
+        name: 'mv_file_parse_cache',
+        component: './app/mv_file_parse_cache/mv_file_parse_cache_index',
+      },
 
 
 
