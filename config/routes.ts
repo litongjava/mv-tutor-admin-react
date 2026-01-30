@@ -180,14 +180,17 @@ export default [
         name: 'mv_file_parse_cache',
         component: './app/mv_file_parse_cache/mv_file_parse_cache_index',
       },
-
-
-
       {
         path: 'mv_llm_usage',
         layout: false,
         name: 'mv_llm_usage',
         component: './app/mv_llm_usage/mv_llm_usage_index',
+      },
+      {
+        path: 'mv_llm_generate_failed',
+        layout: false,
+        name: 'mv_llm_generate_failed',
+        component: './app/mv_llm_generate_failed/mv_llm_generate_failed_index',
       },
       {
         path: 'mv_ai_prompt',
