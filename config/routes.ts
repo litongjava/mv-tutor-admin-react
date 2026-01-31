@@ -181,6 +181,12 @@ export default [
         component: './app/mv_file_parse_cache/mv_file_parse_cache_index',
       },
       {
+        path: 'mv_determine_image_result',
+        layout: false,
+        name: 'mv_determine_image_result',
+        component: './app/mv_determine_image_result/mv_determine_image_result_index',
+      },
+      {
         path: 'mv_llm_usage',
         layout: false,
         name: 'mv_llm_usage',
