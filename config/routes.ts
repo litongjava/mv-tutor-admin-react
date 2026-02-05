@@ -28,7 +28,7 @@ export default [
       },
       {
         path: 'app_user2',
-        hideInMenu: true,
+        hideInMenu: false,
         layout: false,
         name: 'app_user2',
         component: './app/app_user2/app_user2_index',
