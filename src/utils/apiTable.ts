@@ -18,7 +18,7 @@ export async function listRequest(data: any, tableName?: string): Promise<API.Re
 
 export async function exportRequest(data: any, tableName?: string) {
   // 发送请求并获取响应，注意responseType: 'blob'用于指示响应应该是一个Blob对象
-  const response = await request<Blob>(`/api/table/${tableName}/export-excel`, {
+  const response = await request<Blob>(`/api/table/${tableName}/export-current`, {
     method: 'POST',
     data,
     responseType: 'blob'
@@ -31,7 +31,7 @@ export async function exportRequest(data: any, tableName?: string) {
 
 
 export async function exportAllRequest(data: any, tableName?: string) {
-  const response = await request<Blob>(`/api/table/${tableName}/export-table-excel`, {
+  const response = await request<Blob>(`/api/table/${tableName}/export-all`, {
     method: 'POST',
     data,
     responseType: 'blob'
