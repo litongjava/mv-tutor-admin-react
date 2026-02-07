@@ -17,6 +17,11 @@ export const mv_stream_first_token_time_column = (): ProColumns<any>[] => [
     "valueType": "text"
   },
   {
+    "title": "model",
+    "dataIndex": "model",
+    "valueType": "text"
+  },
+  {
     "title": "scene",
     "dataIndex": "scene",
     "valueType": "text"
